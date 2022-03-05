@@ -22,7 +22,7 @@ public class Main extends Menu {
              */
             menu();
             switch (scanner.next()) {
-                // 3 Завдання
+                // 1 Завдання
                 case "1": {
                     System.out.println("Напишіть слово");
                     scanner = new Scanner(System.in);
@@ -46,6 +46,7 @@ public class Main extends Menu {
                     }
                     break;
                 }
+                // 2 Завдання
                 case "2": {
                     System.out.println("Напишіть слово");
                     scanner = new Scanner(System.in);
@@ -55,6 +56,7 @@ public class Main extends Menu {
                     System.out.println(newString);
                     break;
                 }
+                // 3 Завдання
                 case "3": {
                     System.out.println("Напишіть слово");
                     scanner = new Scanner(System.in);
